@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    font-size: 2.4rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform .3s;
+}
+.flipped {
+    background-color: #6c757d;
+    transform: scale(1.1);
+}
+.matched {
+    transform: scale(1.1);
+}
